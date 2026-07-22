@@ -1,0 +1,128 @@
+/* ========================================
+   GLOBAL STYLES
+======================================== */
+html, body{
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+    color: #222;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   NAVIGATION
+======================================== */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.nav-links a{
+    position:relative;
+    transition:.3s;
+}
+.nav-links a:hover{
+    color:#0077ff;
+}
+
+.logo a{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.theme button{
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+}
+
+.theme button:hover{
+    transform: rotate(20deg);
+}
+
+
+/* ========================================
+   HERO SECTION
+======================================== */
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:60px;
+}
+
+.hero-content{
+    max-width: 850px;
+}
+.hero h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.hero h1 span{
+    color: #007bff;
+}
+
+.hero h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    background: #0077ff;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    transition: .3s;
+    margin: 5px;
+}
+.btn:hover{
+    background:#444;
+    transform: translateY(-3px);
+}
