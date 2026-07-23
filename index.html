@@ -5,78 +5,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MC Temd | Virtual CV</title>
+    <title>MC Meyer | Virtual CV</title>
 
-    <!-- CSS Files -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <!-- Navigation bar -->
     <nav class="navbar">
-        <div class="logo">
-            <a href="#home">MC</a>
-        </div>
 
-        <div class="nav-links">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-                
-            </ul>
-        </div>
-        <div class="theme">
-            <button>🌙</button>
-        </div>
-        
+        <a href="#" class="logo">
+            &lt;<span>MC</span>.Meyer /&gt;
+        </a>
+
+        <ul class="nav-links">
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#resume">Resume</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <button class="theme-toggle" aria-label="Toggle dark mode">
+            🌙
+        </button>
+
     </nav>
 
     <!-- Hero section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm MC Meyer</h1>
+     <main>
+        <section class="hero">
 
-            <h2>Final Year Information Technology Student</h2>
+            <div class="hero-content">
 
-            <p>
-                Passionate about software development, databases, networking and solving real-world problems through technology.
-            </p>
+                <span class="availability">
+                    🟢 Available for Graduate Opportunities
+                </span>
 
-            <div class="hero-buttons">
-                <a href="#resume" class="btn">Download CV</a>
+                <h1>
+                    Hi, I'm <span>MC Meyer</span>
+                </h1>
 
-                <a href="#" class="btn">GitHub</a>
+                <h2>
+                    Information Technology Student &
+                    Aspiring Software Developer
+                </h2>
 
-                <a href="#" class="btn">LinkedIn</a>
+                <p>
+                    I build desktop applications, web projects,
+                    SQL databases and computer networks while
+                    continuously expanding my software development
+                    skills.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary">
+                        View Projects
+                    </a>
+
+                    <a href="#resume" class="btn secondary">
+                        Download CV
+                    </a>
+
+                    <a href="#contact" class="btn outline">
+                        Contact Me
+                    </a>
+
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-    </section>
+            <div class="hero-image">
 
-    <section id="skills">
-        <h2>About Me</h2>
-    </section>
+                <div class="hero-showcase">
 
-    <section id="projects">
-        <h2>About Me</h2>
-    </section>
+                    <div class="showcase-card">
 
-    <section id="resume">
-        <h2>About Me</h2>
-    </section>
+                        <h3>Featured Projects</h3>
 
-    <section id="contact">
-        <h2>About Me</h2>
-    </section>
+                        <div class="project-preview">
 
+                            <span class="project-icon">🖧</span>
 
-    <!-- JavaScript Files -->
+                            <div>
+                                <h4>Business Network Design</h4>
+                                <p>Cisco Packet Tracer</p>
+
+                                <div class="tags">
+                                    <span>VLAN</span>
+                                    <span>DHCP</span>
+                                    <span>NAT</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="project-preview">
+
+                            <span class="project-icon">💻</span>
+
+                            <div>
+
+                                <h4>Esgard POS System</h4>
+
+                                <p>C# Windows Forms</p>
+
+                                <div class="tags">
+                                    <span>C#</span>
+                                    <span>SQL</span>
+                                    <span>Reports</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-preview">
+
+                            <span class="project-icon">🌐</span>
+
+                            <div>
+
+                                <h4>Virtual CV</h4>
+                                <p>Responsive Portfolio</p>
+
+                                <div class="tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========================================
+                ABOUT
+        ======================================== -->
+        <section id="about">
+
+            <div class="section-heading">
+
+                <h2>About Me</h2>
+                <p>Get to know me a little better.</p>
+
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-text">
+
+                    <h3>Who I Am</h3>
+
+                    <p>
+                        I'm a final-year Information Technology student at
+                        North-West University with a passion for software
+                        development, database systems and networking.
+                    </p>
+
+                    <p>
+                        Throughout my studies I've enjoyed building practical
+                        applications, designing databases and creating network
+                        solutions that solve real-world problems.
+                    </p>
+
+                    <p>
+                        Outside of technology, I enjoy travelling, taking on new
+                        challenges and continuously learning new skills. I'm
+                        currently building my portfolio while preparing for a
+                        graduate career in software development.
+                    </p>
+
+                </div>
+
+                <div class="about-card">
+
+                    <div class="info-row">
+                        <span>🎓</span>
+                        <div>
+                            <h4>Education</h4>
+                            <p>BSc Information Technology @ NWU</p>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <span>💻</span>
+                        <div>
+                            <h4>Focus</h4>
+                            <p>Software Development</p>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <span>📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>South Africa</p>
+                        </div>
+                    </div>
+
+                    <!--<div class="info-row">
+                        <span>🌐</span>
+                        <div>
+                            <h4>Networking</h4>
+                            <p>Cisco Technologies</p>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="skills">
+            <h2>About Me</h2>
+        </section>
+
+        <section id="projects">
+            <h2>About Me</h2>
+        </section>
+
+        <section id="resume">
+            <h2>About Me</h2>
+        </section>
+
+        <section id="contact">
+            <h2>About Me</h2>
+        </section>
+     </main>
+
     <script src="js/script.js"></script>
 
 </body>
