@@ -8,6 +8,7 @@
     <title>MC Meyer | Virtual CV</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -37,45 +38,44 @@
             🌙
         </button>
 
+        <button class="menu-toggle" aria-label="Open Menu">
+            ☰
+        </button>
+
     </nav>
 
     <!-- Hero section -->
-     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
 
             <div class="hero-content">
 
-                <span class="availability">
-                    🟢 Available for Graduate Opportunities
-                </span>
-
                 <h1>
-                    Hi, I'm <span>MC Meyer</span>
+                    <span>MC</span> Meyer
                 </h1>
 
                 <h2>
-                    Information Technology Student &
+                    Final Year Information Technology Student &
                     Aspiring Software Developer
                 </h2>
 
                 <p>
-                    I build desktop applications, web projects,
-                    SQL databases and computer networks while
-                    continuously expanding my software development
-                    skills.
+                    Passionate about developing reliable software solutions, 
+                    designing and building secure computer networks.
+                    Always eager to learn new technologies and contribute to meaningful projects 
+                    as a graduate software developer and IT professional.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a href="#projects" class="btn primary">
+                    <a href="#projects" class="btn">
                         View Projects
                     </a>
 
-                    <a href="#resume" class="btn secondary">
+                    <a href="#resume" class="btn">
                         Download CV
                     </a>
 
-                    <a href="#contact" class="btn outline">
+                    <a href="#contact" class="btn">
                         Contact Me
                     </a>
 
@@ -158,11 +158,11 @@
         <!-- ========================================
                 ABOUT
         ======================================== -->
-        <section id="about">
+        <section id="about"> 
 
             <div class="section-heading">
 
-                <h2>About Me</h2>
+                <h2>Profile</h2>
                 <p>Get to know me a little better.</p>
 
             </div>
@@ -171,25 +171,22 @@
 
                 <div class="about-text">
 
-                    <h3>Who I Am</h3>
-
                     <p>
-                        I'm a final-year Information Technology student at
-                        North-West University with a passion for software
-                        development, database systems and networking.
+                        MC Meyer is a final year Information Technology student
+                        with a strong interest in software development, database design and computer networking.
+                        Through academic projects and personal learning, a solid foundation has been developed
+                        in designing relational databases, building desktop applications and creating network solutions.
                     </p>
 
                     <p>
-                        Throughout my studies I've enjoyed building practical
-                        applications, designing databases and creating network
-                        solutions that solve real-world problems.
+                        With experience in C#, Java, SQL, HTML, CSS and Cisco Packet Tracer,
+                        MC enjoys applying technical knowledge to practical projects and 
+                        continuously expanding skills in software development and IT.
                     </p>
 
                     <p>
-                        Outside of technology, I enjoy travelling, taking on new
-                        challenges and continuously learning new skills. I'm
-                        currently building my portfolio while preparing for a
-                        graduate career in software development.
+                        Currently seeking graduate opportunities, MC is eager to contribute
+                        to innovative development teams while continuing to grow as a software developer and IT professional.
                     </p>
 
                 </div>
@@ -225,6 +222,10 @@
             </div>
 
         </section>
+
+        <!-- ========================================
+                SKILLS
+        ======================================== -->
 
         <section id="skills">
 
@@ -386,11 +387,13 @@
 
         </section>
 
+        <!-- ========================================
+                PROJECTS
+        ======================================== -->
+
         <section id="projects">
 
             <div class="section-heading">
-
-                <!--<span>03. MY WORK</span>-->
 
                 <h2>Featured Projects</h2>
 
@@ -412,11 +415,7 @@
                             Networking
                         </span>
 
-                        <div class="project-placeholder">
-
-                            🌐
-
-                        </div>
+                        <img src="images/Network_Layout.png" alt="Network Design in Cisco Packet Tracer">
 
                     </div>
 
@@ -425,7 +424,8 @@
                         <h3>Business Network Design</h3>
 
                         <p>
-                            Enterprise network created in Cisco Packet Tracer featuring VLAN segmentation, DHCP, NAT and secure wireless connectivity across multiple departments.
+                            Enterprise network created in Cisco Packet Tracer featuring VLAN segmentation, DHCP, NAT 
+                            and secure wireless connectivity across multiple departments.
                         </p>
 
                         <div class="project-tags">
@@ -456,16 +456,10 @@
                     <div class="project-image software">
 
                         <span class="project-category">
-
                             C# & SQL
-
                         </span>
 
-                        <div class="project-placeholder">
-
-                            💻
-
-                        </div>
+                        <img src="images/Esgard_Login.png" alt="Esgard POS System">
 
                     </div>
 
@@ -474,9 +468,8 @@
                         <h3>Esgard POS System</h3>
 
                         <p>
-
-                            Desktop Point of Sale application built with C# Windows Forms and SQL Server for inventory, purchasing and sales management.
-
+                            Desktop Point of Sale application built with C# Windows Forms 
+                            and SQL Server for inventory, purchasing and sales management.
                         </p>
 
                         <div class="project-tags">
@@ -487,7 +480,7 @@
 
                         </div>
 
-                        <a href="https://github.com/Kaaskrulle01/packet-tracer-network"
+                        <a href="https://github.com/Group-36-223/Esgard-system"
                         target="_blank"
                         class="project-btn">
 
@@ -506,16 +499,10 @@
                     <div class="project-image web">
 
                         <span class="project-category">
-
                             Web Development
-
                         </span>
-
-                        <div class="project-placeholder">
-
-                            🌐
-
-                        </div>
+                        
+                        <img src="images/CV_Template.png" alt="Virtual CV Portfolio Website">
 
                     </div>
 
@@ -524,9 +511,9 @@
                         <h3>Virtual CV Portfolio</h3>
 
                         <p>
-
-                            Responsive personal portfolio website developed using HTML, CSS and JavaScript to showcase my projects, technical skills and academic experience. Built with a focus on clean design, responsive layouts and version control using Git and GitHub.
-
+                            Responsive personal portfolio website developed using HTML, CSS and JavaScript 
+                            to showcase my projects, technical skills and academic experience. 
+                            Built with a focus on clean design, responsive layouts and version control using Git and GitHub.
                         </p>
 
                         <div class="project-tags">
@@ -555,15 +542,262 @@
 
         </section>
 
+        <!-- ========================================
+                RESUME
+        ======================================== -->
+
         <section id="resume">
-            <h2>About Me</h2>
+
+            <div class="section-heading">
+
+                <h2>Education & Career Journey</h2>
+
+                <p>
+                    A snapshot of my academic background and career goals. My full CV is available for download below.
+                </p>
+
+            </div>
+
+            <div class="resume-container">
+
+                <div class="resume-card">
+
+                    <h3>Curriculum Vitae</h3>
+
+                    <p>
+                        My CV includes my education, technical skills, academic projects and other relevant information for graduate software development opportunities.
+                    </p>
+
+                    <div class="resume-buttons">
+
+                        <a href="assets/CV.pdf"
+                        class="resume-btn"
+                        download>
+
+                            Download CV
+
+                        </a>
+
+                        <a href="https://github.com/Kaaskrulle01"
+                        target="_blank"
+                        class="resume-btn secondary">
+
+                            GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2020</div>
+
+                        <div class="timeline-content">
+
+                            <h4>Business Analytics</h4>
+
+                            <p>
+                                Began my studies with a focus on business analysis and data-driven decision making.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2024</div>
+
+                        <div class="timeline-content">
+
+                            <h4>Information Technology</h4>
+
+                            <p>
+                                Transitioned to Information Technology to pursue software development, databases and networking.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2026</div>
+
+                        <div class="timeline-content">
+
+                            <h4>Final Year Student</h4>
+
+                            <p>
+                                Completing my BSc Information Technology degree while developing practical software and networking projects.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-year">2027</div>
+
+                        <div class="timeline-content">
+
+                            <h4>Graduate Opportunities</h4>
+
+                            <p>
+                                Seeking opportunities in Software Development, Information Technology and related graduate programmes.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
+
+        <!-- ========================================
+                CONTACT
+        ======================================== -->
 
         <section id="contact">
-            <h2>About Me</h2>
-        </section>
-     </main>
 
+            <div class="section-heading">
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    I'm currently seeking graduate opportunities in Software Development and Information Technology. If you'd like to discuss an opportunity or simply connect, I'd love to hear from you.
+                </p>
+
+            </div>
+
+            <div class="contact-container">
+
+                <!-- Contact Information -->
+
+                <div class="contact-card">
+
+                    <h3 class="contact-subheading">
+                        Feel free to contact me using any of the methods below.
+                    </h3>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">📧</div>
+
+                        <div>
+
+                            <h4>Email</h4>
+
+                            <a href="mailto:mcmeyer30054@gmail.com">
+                                mcmeyer30054@gmail.com
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">📱</div>
+
+                        <div>
+
+                            <h4>Phone</h4>
+
+                            <a href="tel:+27828265056">
+                                +27 82 826 5056
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>LinkedIn</h4>
+
+                            <a href="https://www.linkedin.com/in/mechiel-christoff-meyer-513485422/" target="_blank">
+                                Connect on LinkedIn
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+
+                        <div>
+
+                            <h4>GitHub</h4>
+
+                            <a href="https://github.com/Kaaskrulle01" target="_blank">
+                                View GitHub Profile
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="footer-content">
+
+                <h2>Thanks for Visiting!</h2>
+
+                <div class="footer-links">
+
+                    <a href="https://github.com/Kaaskrulle01" target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/mc-meyer-513485422/" target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:mcmeyer30054@gmail.com">
+                        Email
+                    </a>
+
+                </div>
+
+                <div class="footer-bottom">
+
+                    <p>
+                        © 2026 MC Temd • Built with HTML, CSS & JavaScript
+                    </p>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <button id="backToTop" aria-label="Back to Top">
+            ▲
+        </button>
     <script src="js/script.js"></script>
     
 
