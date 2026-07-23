@@ -84,9 +84,9 @@ Potential future additions include:
 
 **MC Meyer**
 
-Information Technology Student
+BSc in Information Technology Student
 
-GitHub: https://github.com/[YourUsername](https://github.com/Kaaskrulle01)
+GitHub: https://github.com/Kaaskrulle01
 
 LinkedIn: https://www.linkedin.com/in/mechiel-christoff-meyer-513485422/
 
