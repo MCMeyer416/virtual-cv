@@ -998,6 +998,21 @@ footer{
         justify-content:center;
     }
 
+    .about-container{
+        grid-template-columns:1fr;
+        gap:35px;
+    }
+
+    .about-text,
+    .about-card{
+        width:100%;
+        max-width:100%;
+    }
+
+    .about-card{
+        margin:auto;
+    }
+
     .skill-tabs{
         justify-content:center;
         gap:12px;
