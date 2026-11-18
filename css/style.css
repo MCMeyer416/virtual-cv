@@ -282,6 +282,9 @@ body.dark .theme-toggle{
 
 .project-icon{
     font-size:2rem;
+    width:2.5rem;
+    flex-shrink:0;
+    text-align:center;
 }
 
 .project-preview h4{
@@ -498,6 +501,11 @@ body.dark .theme-toggle{
     color:#B8860B;
 }
 
+.familiar{
+    background:#334155;
+    color:#CBD5E1
+}
+
 
 /*======================================
     PROJECTS
@@ -544,6 +552,10 @@ body.dark .theme-toggle{
     object-fit:contain;
     border-radius:12px;
     box-shadow:0 15px 30px rgba(0,0,0,.25);
+}
+
+.bikeguard{
+    background:linear-gradient(135deg,#3B1F5C,#6E3D91);
 }
 
 .networking{
@@ -605,6 +617,12 @@ body.dark .theme-toggle{
     padding:8px 14px;
     border-radius:8px;
     font-size:.9rem;
+}
+
+.project-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.75rem;
 }
 
 .project-btn{
@@ -1035,6 +1053,11 @@ footer{
     .project-card{
         max-width:500px;
         margin:auto;
+    }
+
+    .project-buttons a{
+        flex:1 1 100%;
+        text-align:center;
     }
 
     .resume-container{
