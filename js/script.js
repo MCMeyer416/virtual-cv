@@ -1,5 +1,6 @@
 const tabs = document.querySelectorAll(".tab-btn");
 const groups = document.querySelectorAll(".skill-group");
+let switchTimer;
 
 tabs.forEach(tab => {
 
@@ -10,21 +11,24 @@ tabs.forEach(tab => {
         tabs.forEach(btn => btn.classList.remove("active"));
         tab.classList.add("active");
 
-        const current = document.querySelector(".skill-group.active");
         const next = document.getElementById(tab.dataset.tab);
 
-        current.style.opacity = 0;
+        // cancel any switch still waiting from a previous click
+        clearTimeout(switchTimer);
 
-        setTimeout(() => {
+        // fade out every group, not just the one marked active
+        groups.forEach(group => group.style.opacity = 0);
 
-            current.classList.remove("active");
+        switchTimer = setTimeout(() => {
+
+            groups.forEach(group => group.classList.remove("active"));
 
             next.classList.add("active");
 
             requestAnimationFrame(() => {
-
-                next.style.opacity = 1;
-
+                requestAnimationFrame(() => {
+                    next.style.opacity = 1;
+                });
             });
 
         },450);
